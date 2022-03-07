@@ -30,9 +30,9 @@ export default function Hero() {
 
     return (
         <>
-            <div class="hero min-h-screen bg-base-200">
-                <div class="hero-content text-center">
-                <div class="max-w-md">
+            <div className="hero min-h-screen bg-base-200">
+                <div className="hero-content text-center">
+                <div className="max-w-md">
                     <Description coords={coords} />
                     <button 
                         className="btn btn-primary btn-wide" 
