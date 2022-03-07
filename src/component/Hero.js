@@ -30,21 +30,21 @@ export default function Hero() {
 
     return (
         <>
-            <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content text-center">
-                <div className="max-w-md">
-                    <Description coords={coords} />
-                    <button 
-                        className="btn btn-primary btn-wide" 
-                        onClick={handleClick
-                    }>
-                            Get Location
-                    </button>
-                    {error && <Error error={error} setError={setError} />}
-                </div>
-                </div>
+          <div className="hero min-h-screen bg-base-200">
+            <div className="hero-content text-center">
+              <div className="max-w-md">
+                <Description coords={coords} />
+                <button 
+                  className="btn btn-primary btn-wide" 
+                  onClick={handleClick}
+                >
+                  Get Location
+                </button>
+                {error && <Error error={error} setError={setError} />}
+              </div>
             </div>
-            {getCoords && <Geolocation handleGeolocation={handleGeolocation}/>}
+          </div>
+          {getCoords && <Geolocation handleGeolocation={handleGeolocation}/>}
         </>
     )
 }
