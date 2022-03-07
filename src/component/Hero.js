@@ -20,8 +20,7 @@ export default function Hero() {
         if (error) {
           setError(false);
         }
-        // setCoords(`${geodata.latitude}, ${geodata.longitude}`);
-        setCoords('78.3272317' + ', ' + '45.54308376');
+        setCoords(`${geodata.latitude}, ${geodata.longitude}`);
         }
     }
   
