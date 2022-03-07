@@ -1,8 +1,8 @@
-# useGeolocation
+# [useGeolocation](https://eukalytics.github.io/geolocation/)
 
 <img src="README/location.gif" alt="mockup of app" />
 
-A react app using the [useGeolocation](https://github.com/streamich/react-use/blob/master/docs/useGeolocation.md) hook from [react-use](https://github.com/streamich/react-use).
+A react app using the [useGeolocation](https://github.com/streamich/react-use/blob/master/docs/useGeolocation.md) hook from [react-use](https://github.com/streamich/react-use). Try it [here](https://eukalytics.github.io/geolocation/).
 
 Has some basic error handling: 
 
